@@ -11,11 +11,12 @@ class App extends Component {
           <div className="container">
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
-        </Navbar>
+          <div>
+            <p></p>
+          </div>
+        </Navbar>       
       </div>
     );
   }
 }
-
-
 export default App;
