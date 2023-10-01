@@ -13,7 +13,10 @@ import Menu from './components/MenuComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Menu></Menu>
+  
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
  
   
  );
