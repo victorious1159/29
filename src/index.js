@@ -9,10 +9,11 @@ import Counter from './Counter';
 import Counter1 from './Counter1';
 import HelloAsClass from './HelloAsClass';
 import HelloAsFunction from './HelloAsFunction';
+import Menu from './components/MenuComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HelloAsClass who="Tin" address="DN"></HelloAsClass>
+  <Menu></Menu>
  
   
  );
